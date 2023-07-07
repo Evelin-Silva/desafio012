@@ -36,7 +36,7 @@ a {
 }
 a:hover {
   color: rgb(82, 82, 140);
-  transition: 0.5s;
+  transition: 0.3s;
   text-decoration: underline;
 }
 
