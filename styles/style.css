@@ -65,12 +65,12 @@ main div {
   border: 2px solid rgba(35, 17, 35, 0.811);
 }
 main #joaninha {
-  background: black url(../imagens/background001.jpg) right center no-repeat fixed;
+  background: black url(../images/background001.jpg) right center no-repeat fixed;
   background-size: cover;
   color: white;
 }
 main #papel {
-  background: black url(../imagens/background002.jpg) right center no-repeat fixed;
+  background: black url(../images/background002.jpg) right center no-repeat fixed;
   background-size: cover;
   color: white;
 }
