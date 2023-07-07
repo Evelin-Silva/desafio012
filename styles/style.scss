@@ -18,60 +18,66 @@ header{
     text-align: center;
     padding: 60px;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.453);
+    font-family: $tittlefont;
 
     h1{
         padding-bottom: 10px;
-        font-size: 5em;
+        font-size: 10em;
+        font-variant: small-caps;
     }
 
     p{
         font-size: 2em;
-    }
-
-    h1, p{
-        font-family: $tittlefont;
     }
 }
 
 a{
     text-decoration: none;
     color: inherit;
+    font-weight: bolder;
     &:hover{
         color: $ultraViolet;
         transition: 0.5s;
+        text-decoration: underline;
     }
 }
 
 main{
     padding: 40px;
-    max-width: 800px;
+    max-width: 1080px;
     margin: auto;
     margin-bottom: 20px;
     border: 2px solid $ultraViolet;
 
     p{
         font-family: $mainfont;
+        font-size: 2em;
     }
 
     section{
-        padding: 40px;
+        padding: 10vh 0 10vh 60px;
         margin: 0 -40px 0 -40px;
+        line-height: 2.8em;
     }
 
     div{
         background-color: $darkpurple;
         width: fit-content;
-        padding: 10px;
+        padding: 20px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.503);
         border: 2px solid $darkpurple;
     }
 
     #joaninha{
-        background: black url(../imagens/background001.jpg) center center no-repeat fixed;
+        background: black url(../imagens/background001.jpg) right center no-repeat fixed;
+        background-size: cover;
+        color: white;
     }
 
     #papel{
-        background: black url(../imagens/background002.jpg) center center no-repeat fixed;
+        background: black url(../imagens/background002.jpg) right center no-repeat fixed;
+        background-size: cover;
+        color: white;
     }
 }
 
